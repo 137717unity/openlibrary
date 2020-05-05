@@ -9,7 +9,7 @@
     "generate-report": "rm -rf diffs && reg-cli actual expected diffs --report report.html"
   },
   "dependencies": {
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.5",
     "puppeteer": "^1.5.0",
     "reg-cli": "^0.11.5"
   }
