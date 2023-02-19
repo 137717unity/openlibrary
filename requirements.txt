@@ -30,3 +30,6 @@ simplegeneric==0.8.1
 traitlets==4.3.1
 wcwidth==0.1.7
 wsgiref==0.1.2
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
